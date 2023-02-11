@@ -8,11 +8,11 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(12, 32%, 22%);
-  --first-color-alt: hsl(12, 42%, 12%);
-  --first-color-light: hsl(12, 24%, 32%);
-  --second-color: hsl(39, 62%, 65%);
-  --title-color: hsl(12, 12%, 16%);
+  --first-color:  hsl(351,80%,49%);
+  --first-color-alt: hsl(358, 68%, 29%);
+  --first-color-light: hsl(356, 74%, 48%);
+  --second-color: hsl(0, 0%, 100%);
+  --title-color: hsl(351,80%,49%);
   --text-color: hsl(12, 12%, 32%);
   --text-color-light: hsl(12, 8%, 48%);
   --white-color: #fff;
