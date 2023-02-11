@@ -1,6 +1,13 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&display=swap");
 
+/*=============== CUSTOM FONTS ===============*/
+
+@font-face {
+  font-family: 'CocaCola';
+  src: url("fonts/CocaCola.ttf");
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
