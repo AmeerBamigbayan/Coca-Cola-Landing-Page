@@ -19,7 +19,7 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color:  hsl(351,80%,49%);
-  --first-color-alt: hsl(358, 68%, 29%);
+  --first-color-alt: hsl(358, 93%, 58%);
   --first-color-light: hsl(356, 74%, 48%);
   --second-color: hsl(0, 0%, 100%);
   --title-color: hsl(351,80%,49%);
@@ -170,6 +170,19 @@ img {
 
 
 /* Navigation for mobile devices */
+     @media screen and (max-width: 1023px) {
+        .nav-menu{
+          position: fixed;
+          bottom: 0;
+          background: linear-gradient(180deg, var(--first-color) 0%, var(--first-color-alt) 100%);
+          box-shadow: 0 -2px 12px hsla(12, 32%, 12%, .3);
+          width: 100%;
+          padding: 1.25rem 4rem;
+        }
+     }
+      
+     
+
 
 
 /* Change background header */
