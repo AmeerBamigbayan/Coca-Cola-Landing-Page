@@ -1,16 +1,13 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+
+
 /*=============== CUSTOM FONTS ===============*/
 
 @font-face {
-  font-family: "Coca-Cola";
-  src: url("fonts/cocacola.ttf");
-}
-
-@font-face {
-  font-family: 'Outfit';
-  src: url("Outfit-VariableFont_wght.ttf");
+  font-family: 'Coca-Cola';
+  src: url("/Coca-Cola-Landing-Page/fonts/cocacola.ttf") 
 }
 
 
@@ -162,7 +159,7 @@ img {
   align-items: center;
   column-gap: .5rem;
   font-size: var(--h3-font-size);
-  font-family: 'Outfit';
+  font-family: 'Coca-Cola';
 
 }
 
