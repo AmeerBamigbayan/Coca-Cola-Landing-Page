@@ -188,8 +188,8 @@ img {
      }
 
      
-    .nav-link {
-        color: #e7c2c2;
+    .nav-link{
+        color: #ffffff;
         font-family: sans-serif;
         font-size: 10px;
         display: flex;
@@ -200,9 +200,15 @@ img {
         text-transform: uppercase;
      }
 
-     .nav-item i{
-        background: linear-gradient(180deg, hsl(0, 100%, 50%) 0%, hsl(0, 86%, 43%) 100%);
+      .nav-link i{
+        font-size: 15px;
      }
+
+      .nav-link:hover{
+          color: #750000;
+      }
+
+
 
 
 /* Change background header */
