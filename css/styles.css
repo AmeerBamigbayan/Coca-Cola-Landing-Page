@@ -186,8 +186,23 @@ img {
        display: flex;
        justify-content: space-between;
      }
-     
 
+     
+    .nav-link {
+        color: #e7c2c2;
+        font-family: sans-serif;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: .25rem;
+        transition: color .3s;
+        text-transform: uppercase;
+     }
+
+     .nav-item i{
+        background: linear-gradient(180deg, hsl(0, 100%, 50%) 0%, hsl(0, 86%, 43%) 100%);
+     }
 
 
 /* Change background header */
