@@ -327,7 +327,15 @@ img {
         box-shadow: 0 8px 32px #fa7272;
         margin-bottom: 2rem;
         transition: box-shadow .3s, transform .3s;
+     }
 
+     .products-btn i{
+        font-size: 1.5rem;
+     }
+
+     .products-btn:hover{
+        box-shadow: 0 8px 32px #ff5c5c;
+        transform: translateY(-.25rem);
      }
 
 
