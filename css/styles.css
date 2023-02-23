@@ -254,10 +254,10 @@ img {
 }
 
 .home-title img{
-  width: 80px;
+  width: 60px;
   position: absolute;
-  right: -1rem;
-  bottom: -1.25rem;
+  right: -0.3rem;
+  bottom: -0.11rem;
 }
 
 .home-description{
@@ -265,7 +265,7 @@ img {
 }
 
 .home-img{
-  width: 320px;
+  width: 350px;
   justify-self: center;
 }
 
@@ -283,6 +283,19 @@ img {
   font-weight: var(--font-medium);
   box-shadow: 0 8px 32px #fa7272;
   transition: box-shadow .3s;
+}
+
+.btn i{
+  font-size: 1.5rem;
+  transition: transform .3s;
+}
+
+.btn:hover{
+  box-shadow: 0 8px 32px #ff5c5c;
+}
+
+.btn:hover i{
+  transform: translateX(.25rem);
 }
 
 
