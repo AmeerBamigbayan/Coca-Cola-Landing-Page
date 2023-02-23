@@ -220,6 +220,7 @@ img {
 /*=============== HOME ===============*/
 .home{
   background: linear-gradient(180deg, var(--first-color) 0%, var(--first-color-alt) 100%);
+  height: 100;
 }
 
 .home-container{
@@ -300,6 +301,27 @@ img {
 
 
 /*=============== PRODUCTS ===============*/
+
+    .products{
+        background-color: var(--first-color-alt);
+     }
+
+     .products-bg{
+        background-color: var(--first-color);
+        border-radius: var(--border-section);
+     }
+
+     .products-container{
+        row-gap: 3.5rem;
+     }
+
+     .products-btn{
+        display: inline-flex;
+        align-items: center;
+        column-gap: .5rem;
+        background-color: var(--second-color);
+     }
+
 
 
 /*=============== ABOUT ===============*/
