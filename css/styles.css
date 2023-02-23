@@ -138,7 +138,7 @@ img {
 .header-border{
   width: 100%;
   height: 2px;
-  background-image: linear-gradient(90deg, var(--text-color-light) 50%, transparent 50%);
+  background-image: linear-gradient(90deg, #fff 50%, transparent 50%);
   background-size: 24px;
   position: absolute;
   bottom: 0;
