@@ -320,6 +320,14 @@ img {
         align-items: center;
         column-gap: .5rem;
         background-color: var(--second-color);
+        padding: 1rem 1.5rem;
+        border-radius: 4rem;
+        color: var(--first-color);
+        font-weight: var(--font-medium);
+        box-shadow: 0 8px 32px #fa7272;
+        margin-bottom: 2rem;
+        transition: box-shadow .3s, transform .3s;
+
      }
 
 
