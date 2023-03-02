@@ -351,8 +351,17 @@ img {
      }
 
      .products-img{
-       width: ;
+       width: 120px;
+       filter: drop-shadow(0 4px 16px hsl(0, 31%, 43%));
+       margin-bottom: 1.5rem;
+       transition: transform .4s;
      }
+
+     .products-img:hover{
+       transform: translateY(-.35rem);
+     }
+
+     
 
 
 /*=============== ABOUT ===============*/
