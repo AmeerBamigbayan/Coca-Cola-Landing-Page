@@ -358,7 +358,7 @@ img {
 
      .products-img{
        width: 120px;
-       filter: drop-shadow(0 4px 16px hsl(0, 31%, 43%));
+       filter: drop-shadow(0 4px 16px hsla(0, 100%, 57%, 0.407));
        margin-bottom: 1.5rem;
        transition: transform .4s;
      }
