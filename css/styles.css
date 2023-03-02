@@ -343,6 +343,16 @@ img {
       color: var(--white-color);
      }
 
+     .products-content{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      gap: 3.5rem 4.5rem;
+     }
+
+     .products-img{
+       width: ;
+     }
 
 
 /*=============== ABOUT ===============*/
