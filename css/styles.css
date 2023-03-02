@@ -399,6 +399,13 @@ img {
   text-align: center;
 }
 
+.about-data .section-title{
+   font-family: 'Coca-Cola';
+   line-height: 150%;
+   font-size: 2.5rem;
+   color: var(--first-color);
+}
+
 .about-img{
   width: 320px;
   border-radius: 1rem;
@@ -406,8 +413,45 @@ img {
 }
 
 /*=============== TESTIMONIAL ===============*/
+.testimonial{
+  background-color: var(--white-color);
+}
 
+.testimonial-bg{
+  background-color: var(--first-color);
+  border-radius: var(--border-section);
+}
 
+.testimonial-container{
+  row-gap: 3rem;
+}
+
+.testimonial-data{
+  text-align: center;
+}
+
+.testimonial-data .section-title{
+  font-family: 'Coca-Cola';
+  line-height: 100%;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: var(--white-color);
+}
+
+.testimonial-name{
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+  color: var(--white-color);
+  line-height:60px;
+
+}
+
+.testimonial-img{
+  width: 320px;
+  border-radius: 1rem;
+  justify-self: center;
+  margin-bottom: 1rem;
+}
 /*=============== FOOTER ===============*/
 
 
