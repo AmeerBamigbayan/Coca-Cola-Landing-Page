@@ -361,7 +361,16 @@ img {
        transform: translateY(-.35rem);
      }
 
-     
+     .products-name{
+       font-size: var(--h1-font-size);
+       font-family: var(--second-font);
+       font-weight: var(--font-regular);
+       line-height: 120%;
+     }
+     .products-price{
+      font-size: var(--h4-font-size);
+      font-family: "Poppins", sans-serif;";
+     }
 
 
 /*=============== ABOUT ===============*/
