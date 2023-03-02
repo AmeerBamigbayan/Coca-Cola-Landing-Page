@@ -338,6 +338,11 @@ img {
         transform: translateY(-.25rem);
      }
 
+     .products-data, .products-card{
+      text-align: center;
+      color: var(--white-color);
+     }
+
 
 
 /*=============== ABOUT ===============*/
