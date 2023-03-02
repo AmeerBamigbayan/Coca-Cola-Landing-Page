@@ -375,6 +375,19 @@ img {
 
 
 /*=============== ABOUT ===============*/
+.about{
+  background-color: var(--first-color);
+}
+
+.about-bg{
+  background-color: #fff;
+  border-radius: var(--border-section);
+}
+
+.about-container{
+  row-gap: 3rem;
+}
+
 
 
 /*=============== STEPS ===============*/
