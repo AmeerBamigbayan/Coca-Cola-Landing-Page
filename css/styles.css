@@ -273,7 +273,7 @@ img {
 
 .home-img{
   width: 350px;
-  justify-self: center;
+  margin-left: -10%;
 }
 
 
