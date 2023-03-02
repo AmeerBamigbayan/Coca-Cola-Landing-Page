@@ -213,8 +213,13 @@ img {
 
 
 /* Change background header */
+.scroll-header{
+  box-shadow: 0 2px 8px hsl(0, 31%, 43%);
+}
 
-
+.scroll-header .header-border{
+  opacity: 0;
+}
 /* Active link */
 
 
@@ -375,6 +380,8 @@ img {
 
 
 /*=============== ABOUT ===============*/
+   
+   
 .about{
   background-color: var(--first-color);
 }
@@ -388,10 +395,15 @@ img {
   row-gap: 3rem;
 }
 
+.about-data{
+  text-align: center;
+}
 
-
-/*=============== STEPS ===============*/
-
+.about-img{
+  width: 320px;
+  border-radius: 1rem;
+  justify-self: center;
+}
 
 /*=============== TESTIMONIAL ===============*/
 
