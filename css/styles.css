@@ -715,11 +715,12 @@ img {
 
     .products-data{
       margin-left: 70px;
+      text-align: initial;
     }
     
     .products-content{
       grid-template-columns: repeat(3, 1fr);
-      margin-left: 160px;
+      margin-left: 100px;
     }
 
     .products-name, .products-price{
