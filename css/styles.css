@@ -354,7 +354,7 @@ img {
 
      .products-content{
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       justify-content: center;
       gap: 3.5rem 4.5rem;
      }
@@ -663,6 +663,8 @@ img {
 
 }
 
+/* 321px to  */
+
 
 
 /* For medium devices */
@@ -676,6 +678,9 @@ img {
     justify-content: center;
   }
 
+  .products-content{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 
