@@ -241,10 +241,12 @@ img {
 .home-container{
   padding-top: 2rem;
   row-gap: 2rem;
+  
 }
 
 .home-data{
   text-align: center;
+  
 }
 
 .home-subtitle{
@@ -676,8 +678,12 @@ img {
 }
 
 /* 321px to  */
-
-
+@media screen and (max-width: 576px){
+.home-container{
+  display: flex;
+  flex-direction: column-reverse;
+}
+}
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
