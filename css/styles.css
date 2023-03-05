@@ -638,6 +638,31 @@ img {
 
 
 }
+/*   Iphone 5/SE */
+
+@media screen and (max-width: 320px){
+  .container{
+   margin-inline: 1rem;
+  }
+  
+  .nav-menu{
+    padding-inline: 2rem;
+  }
+
+  .nav-item span{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+
+  .products-content{
+    grid-template-columns: 1fr;
+  }
+
+
+}
+
 
 
 /* For medium devices */
