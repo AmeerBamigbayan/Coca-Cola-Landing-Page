@@ -622,7 +622,13 @@ img {
   }
   
   .nav-menu{
-    padding-inline: 3rem;
+    padding-inline: 2rem;
+  }
+
+  .nav-item span{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 10px;
   }
 
 
