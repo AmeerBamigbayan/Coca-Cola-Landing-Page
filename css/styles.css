@@ -535,6 +535,7 @@ img {
   font-size: var(--small-font-size);
   color: #d1d1d1;
   margin-top: 20px;
+  margin-bottom: -100px;
 }
 
 .footer-privacy{
@@ -546,7 +547,35 @@ img {
   text-decoration: underline;
 }
 
+.footer-content{
+  row-gap: 2rem;
+}
 
+.footer-social{
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.footer-social-link{
+  font-size: 1.25rem;
+  transition: color .3s;
+}
+
+.footer-social-link:hover{
+  color: var(--first-color);
+}
+
+.footer-copy{
+  font-size: var(--small-font-size);
+  color: #d1d1d1;
+  text-align: center;
+}
+
+.footer-copy a{
+  color: #ffffff;
+  font-weight: 800;
+}
 
 
 /*=============== SCROLL BAR ===============*/
