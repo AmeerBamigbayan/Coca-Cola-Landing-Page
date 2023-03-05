@@ -97,17 +97,17 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
+.container{
   max-width: 1120px;
   margin-inline: 1.5rem;
 }
 
-.grid {
+.grid{
   display: grid;
   gap: 1.5rem;
 }
 
-.section {
+.section{
   padding-block: 4.5rem 3.5rem;
 }
 
@@ -453,6 +453,14 @@ img {
  
 }
 /*=============== FOOTER ===============*/
+.footer{
+  background-color: var(--first-color);
+}
+
+.footer-bg{
+  background-color: var(--first-color-alt);
+  border-radius: var(--border-section);
+}
 
 
 /*=============== SCROLL BAR ===============*/
