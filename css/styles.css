@@ -181,6 +181,12 @@ img {
           width: 100%;
           padding: 1.25rem 4rem;
         }
+
+        .nav-item span{
+          font-family: 'Poppins';
+          font-weight: 600;
+          
+        }
      }
       
      .nav-list{
