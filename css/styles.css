@@ -702,5 +702,23 @@ img {
       padding: 0 6rem;
     }
   
+    .products-container{
+      grid-template-columns: 518px 655px;
+      align-items: center;
+
+    }
+
+    .products-data{
+      margin-left: 70px;
+    }
+    
+    .products-content{
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 160px;
+    }
+
+    .products-name, .products-price{
+     
+    }
 }
 
