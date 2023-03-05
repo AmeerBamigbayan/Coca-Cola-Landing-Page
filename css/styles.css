@@ -664,14 +664,18 @@ img {
 
    .nav-menu{
     width: 300px;
+    
    }
-
+   .nav-item span{
+     font-family: 'Poppins';
+     font-weight: 600;
+   }
    .nav-list{
     column-gap: 3.4rem;
    }
 
    .nav-link{
-    font-size: 13px;
+    font-size: 14px;
    }
 
    .nav-link i{
