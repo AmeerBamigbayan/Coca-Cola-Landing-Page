@@ -737,6 +737,21 @@ img {
       text-align: initial;
     }
 
-    
+    .testimonial-container{
+      grid-template-columns: 465px max-content;
+      align-items: center;
+    }
+
+    .testimonial-img{
+      width: 450px;
+    }
+
+    .testimonial-data, .testimonial-data .section-title{
+      text-align: initial;
+    }
+
+    .testimonial-data .section-title{
+      margin-bottom: 3rem;
+    }
 }
 
