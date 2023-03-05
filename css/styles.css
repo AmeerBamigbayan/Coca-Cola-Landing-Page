@@ -723,8 +723,20 @@ img {
       margin-left: 100px;
     }
 
-    .products-name, .products-price{
-     
+    .about-container{
+      grid-template-columns: max-content 465px;
+      align-items: center;
     }
+
+    .about-img{
+      order: -1;
+      width: 450px;
+    }
+
+    .about-data, .about-data .section-title{
+      text-align: initial;
+    }
+
+    
 }
 
