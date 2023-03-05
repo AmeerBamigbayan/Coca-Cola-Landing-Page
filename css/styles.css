@@ -646,6 +646,61 @@ img {
   }
 
 }
-
-
 /* For large devices */
+@media screen and (min-width: 1023px) {
+   .section{
+    padding-block: 7.5rem 5.5rem;
+   }
+
+   .nav{
+    height: calc(var(--header-height) + 2rem);
+    justify-content: space-between;
+   }
+
+   .nav-logo img{
+    width: 128px;
+   }
+
+   .nav-menu{
+    width: 300px;
+   }
+
+   .nav-list{
+    column-gap: 3.4rem;
+   }
+
+   .nav-link{
+    font-size: 13px;
+   }
+
+   .nav-link i{
+    display: none;
+   }
+
+   .home-container{
+    grid-template-columns: max-content 540px;
+    align-items: center;
+    padding-top: 3rem;
+   }
+
+   .home-img{
+    order: -1;
+    width: 550px;
+    margin-left: -8%;
+   }
+
+    .home-data{
+      text-align: center;
+    }
+
+    .home-title img{
+      width: 100px;
+    }
+
+    .home-description{
+      margin-bottom: 3rem;
+      padding: 0 6rem;
+    }
+  
+}
+
