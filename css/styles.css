@@ -753,5 +753,58 @@ img {
     .testimonial-data .section-title{
       margin-bottom: 3rem;
     }
+
+    .footer-container{
+      grid-template-columns: initial;
+      justify-content: initial;
+      row-gap: 6rem;
+      padding-block: 6rem 3rem;
+    }
+
+    .footer-data{
+      grid-template-columns: repeat(2, max-content);
+      justify-content: space-between;
+      text-align: initial;
+    }
+
+    .footer-logo{
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-logo img{
+      width: 128px;
+    }
+
+    .footer-title{
+      font-size: var(--h2-font-size);
+      font-family: 'Poppins';
+    }
+
+    .footer-form{
+      width: 360px;
+      row-gap: 1.5rem;
+    }
+
+    .footer-content{
+      row-gap: 2rem;
+    }
+
+    .footer-social{
+      column-gap:3rem;
+    }
+
+    .footer-social-link{
+      font-size: 1.5rem;
+    }
+
+    .scrollup{
+      right: 3rem;
+    }
+
+    .show-scroll{
+      bottom: 3rem;
+    }
+
+
 }
 
