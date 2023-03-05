@@ -529,8 +529,24 @@ img {
 
 .footer-button i{
   vertical-align: middle;
-
 }
+
+.footer-description{
+  font-size: var(--small-font-size);
+  color: #d1d1d1;
+  margin-top: 20px;
+}
+
+.footer-privacy{
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.footer-privacy:hover{
+  text-decoration: underline;
+}
+
+
 
 
 /*=============== SCROLL BAR ===============*/
