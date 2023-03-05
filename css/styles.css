@@ -506,6 +506,32 @@ img {
   font-weight: var(--font-medium);
 }
 
+.footer-input{
+  width: 100%;
+  background: transparent;
+  border: 2px solid var(--white-color);
+  padding: 1.15rem 1.5rem;
+  border-radius: 4rem;
+}
+
+.footer-input::placeholder{
+  color: var(--white-color);
+}
+
+.footer-button{
+   padding-block: 1.25rem;
+   justify-content: center;
+   cursor: pointer;
+   border-radius: 4rem;
+   box-shadow: 0 8px 32px #fa7272;
+   transition: box-shadow .3s;
+}
+
+.footer-button i{
+  vertical-align: middle;
+
+}
+
 
 /*=============== SCROLL BAR ===============*/
 
