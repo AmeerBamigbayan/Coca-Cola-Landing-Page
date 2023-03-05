@@ -644,6 +644,12 @@ img {
 
 
 }
+@media screen and (max-width: 576px){
+.products-name{
+  font-size: 40px;
+}
+
+}
 /*   Iphone 5/SE */
 
 @media screen and (max-width: 320px){
