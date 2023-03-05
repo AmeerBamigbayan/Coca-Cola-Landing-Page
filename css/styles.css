@@ -462,6 +462,50 @@ img {
   border-radius: var(--border-section);
 }
 
+.footer-container{
+  padding-block: 4rem 7rem;
+  row-gap: 4.5rem;
+}
+
+.footer-data{
+  text-align: center;
+  row-gap:4.5rem;
+}
+
+.footer-logo, .footer-title, .footer-input, .footer-description, .footer-social-link{
+  color: var(--white-color);
+}
+
+.footer-logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo img{
+  width: 128px;
+}
+
+.footer-title{
+  font-size: var(--big-font-size);
+  font-size: 20px;
+  font-weight: var(--font-medium);
+  line-height: 120%;
+}
+
+.footer-form{
+  row-gap: 1rem;
+}
+
+.footer-input, .footer-button{
+  border: none;
+  outline: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
 
 /*=============== SCROLL BAR ===============*/
 
