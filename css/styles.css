@@ -1263,3 +1263,11 @@ img {
     width: 550px;
   }
 }
+
+/* Large Desktop */
+@media screen and (min-width: 1377px){
+  .home-img{
+    width: 550px;
+    margin-left: -40%;
+  }
+}
