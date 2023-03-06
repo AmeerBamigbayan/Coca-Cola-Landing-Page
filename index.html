@@ -13,6 +13,9 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="css/styles.css">
 
+        <!--=============== Animation ===============-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <title>Coca-Cola Nigeria - Ameer Bamigbayan</title>
     </head>
     <body>
@@ -57,7 +60,7 @@
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
                 <div class="home-container container grid">
-                    <div class="home-data">
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000" class="home-data">
                         <h3 class="home-subtitle">
                             A DIFFERENT TASTE
                         </h3>
@@ -78,7 +81,7 @@
                         </a>
                     </div>
 
-                    <img src="img/home-coke.png" alt="hero image" class="home-img">
+                    <img data-aos="fade-right" data-aos-duration="1000" src="img/home-coke.png" alt="hero image" class="home-img" >
                 </div>
             </section>
 
@@ -213,7 +216,11 @@
         </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+
 
         <!--=============== MAIN JS ===============-->
         <script src="js/main.js"></script>
